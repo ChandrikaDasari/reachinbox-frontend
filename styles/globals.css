@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .login-container, .onebox-container, .reply-container, .text-editor {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .login-container h2, .onebox-container h3, .reply-container textarea, .text-editor textarea {
+    margin-bottom: 10px;
+  }
+  
+  .google-signup, .create-account, .send-reply {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .google-signup img {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    border-right: 1px solid #ddd;
+  }
+  
+  .email-content, .lead-details {
+    width: 40%;
+  }
+  
+  .inbox-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .inbox-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .reply-container textarea, .text-editor textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    resize: none;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .google-signup, .create-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .google-signup {
+    background-color: #4285f4;
+  }
+  
+  .create-account {
+    background-color: #4caf50;
+  }
+  
+  .google-signup img, .create-account img {
+    margin-right: 10px;
+  }
+  
+  .google-signup:hover, .create-account:hover {
+    opacity: 0.9;
+  }
+  
+  a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
